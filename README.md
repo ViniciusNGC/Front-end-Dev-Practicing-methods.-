@@ -1,2 +1,2 @@
 # Sneakers Website Draft
- Frontend Dev Practicing methods. 
+ Front-end Dev Practicing methods. 
