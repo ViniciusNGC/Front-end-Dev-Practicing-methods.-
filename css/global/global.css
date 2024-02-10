@@ -1,0 +1,40 @@
+body{
+  margin: 0px;
+  font-family: Quicksand;
+  font-size: 1rem;
+  gap: 2.5rem;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.lmenu-bkg{
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0px;
+}
+
+.container{
+  max-width: 1000px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
