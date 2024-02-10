@@ -1,7 +1,41 @@
-.upper-menu {
+
+.upmenu-bkg {
   background-color: black;
 }
+.upmenu{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  margin: 0 auto;
+}
+.upmenu-a {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+.upmenu-a a{
+  padding: 16px 0;
+  display: inline-block;
+  color: #fff;
+}
 
-.lmenu-bkg {
+
+.lower-menu {
   background-color: #85754e;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  color: #fff;
+  text-align: center;
+}
+
+.lower-menu a{
+  color: #fff;
+  display: inline-block;
+}
+
+
+@media (max-width:800px) {
+
 }
