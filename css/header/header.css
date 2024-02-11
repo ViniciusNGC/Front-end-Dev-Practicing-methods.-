@@ -12,18 +12,23 @@
 }
 .upmenu-a {
   display: flex;
-  gap: 2.5rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 .upmenu-a a{
-  padding: 16px 0;
+  padding: 9px 8px;
   display: inline-block;
   color: #fff;
+  border-radius: 6px;
+}
+
+.upmenu-a a:hover {
+  background-color: #4D5D53;
 }
 
 
 .lower-menu {
-  background-color: #85754e;
+  background-color: #4D5D53;
   padding-bottom: 0.8rem;
   padding-top: 0.8rem;
   color: #fff;
@@ -37,5 +42,20 @@
 
 
 @media (max-width:800px) {
-
-}
+   .upmenu-a a{
+    background-color: #4D5D53;
+    padding: 9px 8px;
+    border-radius: 6px;
+   }
+   .upmenu-a{
+    gap: 20px;
+   }
+   .upmenu-a a:hover{
+    background-color: #679267;
+   }
+   .lower-menu {
+    display: none;
+    padding-bottom: 0;
+    padding-top: 0;
+   }
+  }

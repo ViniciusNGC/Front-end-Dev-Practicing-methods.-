@@ -1,0 +1,37 @@
+
+.intro h1{
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 3.0rem;
+  text-align: center;
+}
+
+.intro-content {
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+
+.intro-content p {
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+.intro img{
+  object-fit: cover;
+  height: 100%;
+  border-radius: 4px;
+  width: 100%
+}
+
+@media (max-width:800px) {
+  .intro h1{
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .intro {
+    background-color: black;
+  }
+  .intro-content p {
+    color: #fff;
+  }
+}
