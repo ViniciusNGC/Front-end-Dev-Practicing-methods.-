@@ -38,3 +38,9 @@ h1, h2, h3, h4, p {
   padding-right: 1.25rem;
 }
 
+@media (max-width:800px) {
+  body{
+    background-color: black;
+    color: #fff;
+  }
+}
